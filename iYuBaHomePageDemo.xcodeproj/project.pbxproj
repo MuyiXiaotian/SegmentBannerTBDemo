@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5871EA8217D70F3005A8B1E /* DataSource.html in Resources */ = {isa = PBXBuildFile; fileRef = A5871EA7217D70F3005A8B1E /* DataSource.html */; };
+		A5A427A02179821F00FD93F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A4279F2179821F00FD93F6 /* AppDelegate.m */; };
+		A5A427A32179821F00FD93F6 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A427A22179821F00FD93F6 /* HomePageViewController.m */; };
+		A5A427A62179821F00FD93F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A427A42179821F00FD93F6 /* Main.storyboard */; };
+		A5A427A82179822200FD93F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A427A72179822200FD93F6 /* Assets.xcassets */; };
+		A5A427AB2179822200FD93F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A427A92179822200FD93F6 /* LaunchScreen.storyboard */; };
+		A5A427AE2179822200FD93F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A427AD2179822200FD93F6 /* main.m */; };
+		A5A427C62179893A00FD93F6 /* IMG_1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A5A427B92179893A00FD93F6 /* IMG_1.JPG */; };
+		A5A427C72179893A00FD93F6 /* IMG_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A5A427BA2179893A00FD93F6 /* IMG_2.JPG */; };
+		A5A427C82179893A00FD93F6 /* IMG_3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A5A427BB2179893A00FD93F6 /* IMG_3.JPG */; };
+		A5A427C92179893A00FD93F6 /* IMG_4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = A5A427BC2179893A00FD93F6 /* IMG_4.JPG */; };
+		A5A427CB2179893A00FD93F6 /* YTBannerLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A427C02179893A00FD93F6 /* YTBannerLoopView.m */; };
+		A5A427CC2179893A00FD93F6 /* YTHideSelfWhenTextNilLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A427C32179893A00FD93F6 /* YTHideSelfWhenTextNilLabel.m */; };
+		A5A427CD2179893A00FD93F6 /* YTPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A427C52179893A00FD93F6 /* YTPageControl.m */; };
+		A5A427D521798C5800FD93F6 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A427D321798C5800FD93F6 /* UIView+Layout.m */; };
+		A5A427D92179AA4F00FD93F6 /* UIImage+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A427D82179AA4F00FD93F6 /* UIImage+Tools.m */; };
+		A5A427DC2179AB6700FD93F6 /* UIButton+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A427DB2179AB6700FD93F6 /* UIButton+Tools.m */; };
+		A5A427DF2179AC0500FD93F6 /* UILabel+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A427DE2179AC0500FD93F6 /* UILabel+Tools.m */; };
+		A5A427E22179B49C00FD93F6 /* HomePageSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A427E12179B49C00FD93F6 /* HomePageSegmentView.m */; };
+		A5A427E42179B4B400FD93F6 /* HomePageSegmentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A427E32179B4B400FD93F6 /* HomePageSegmentView.xib */; };
+		A5A427E72179DA3D00FD93F6 /* HomePageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A427E62179DA3D00FD93F6 /* HomePageModel.m */; };
+		A5A427EB2179E1EE00FD93F6 /* HomePageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A427E92179E1EE00FD93F6 /* HomePageCell.m */; };
+		A5A427EC2179E1EE00FD93F6 /* HomePageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A427EA2179E1EE00FD93F6 /* HomePageCell.xib */; };
+		BF91A66BCAD5E26B60378959 /* libPods-iYuBaHomePageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 915EABC5249F39D9A5CD2CC2 /* libPods-iYuBaHomePageDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BC26EDD41D38F75F21B9EBE /* Pods-iYuBaHomePageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iYuBaHomePageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iYuBaHomePageDemo/Pods-iYuBaHomePageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		915EABC5249F39D9A5CD2CC2 /* libPods-iYuBaHomePageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iYuBaHomePageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5871EA7217D70F3005A8B1E /* DataSource.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = DataSource.html; sourceTree = "<group>"; };
+		A5A4279B2179821F00FD93F6 /* iYuBaHomePageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iYuBaHomePageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A4279E2179821F00FD93F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5A4279F2179821F00FD93F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5A427A12179821F00FD93F6 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		A5A427A22179821F00FD93F6 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		A5A427A52179821F00FD93F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5A427A72179822200FD93F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5A427AA2179822200FD93F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5A427AC2179822200FD93F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A427AD2179822200FD93F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A427B92179893A00FD93F6 /* IMG_1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1.JPG; sourceTree = "<group>"; };
+		A5A427BA2179893A00FD93F6 /* IMG_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2.JPG; sourceTree = "<group>"; };
+		A5A427BB2179893A00FD93F6 /* IMG_3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3.JPG; sourceTree = "<group>"; };
+		A5A427BC2179893A00FD93F6 /* IMG_4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4.JPG; sourceTree = "<group>"; };
+		A5A427BF2179893A00FD93F6 /* YTBannerLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTBannerLoopView.h; sourceTree = "<group>"; };
+		A5A427C02179893A00FD93F6 /* YTBannerLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTBannerLoopView.m; sourceTree = "<group>"; };
+		A5A427C12179893A00FD93F6 /* YTBannerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTBannerProtocol.h; sourceTree = "<group>"; };
+		A5A427C22179893A00FD93F6 /* YTHideSelfWhenTextNilLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTHideSelfWhenTextNilLabel.h; sourceTree = "<group>"; };
+		A5A427C32179893A00FD93F6 /* YTHideSelfWhenTextNilLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTHideSelfWhenTextNilLabel.m; sourceTree = "<group>"; };
+		A5A427C42179893A00FD93F6 /* YTPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPageControl.h; sourceTree = "<group>"; };
+		A5A427C52179893A00FD93F6 /* YTPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPageControl.m; sourceTree = "<group>"; };
+		A5A427CE217989BA00FD93F6 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		A5A427CF217989CF00FD93F6 /* IYuBaPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IYuBaPrefixHeader.pch; sourceTree = "<group>"; };
+		A5A427D321798C5800FD93F6 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		A5A427D421798C5800FD93F6 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		A5A427D72179AA4F00FD93F6 /* UIImage+Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tools.h"; sourceTree = "<group>"; };
+		A5A427D82179AA4F00FD93F6 /* UIImage+Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tools.m"; sourceTree = "<group>"; };
+		A5A427DA2179AB6700FD93F6 /* UIButton+Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Tools.h"; sourceTree = "<group>"; };
+		A5A427DB2179AB6700FD93F6 /* UIButton+Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Tools.m"; sourceTree = "<group>"; };
+		A5A427DD2179AC0500FD93F6 /* UILabel+Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Tools.h"; sourceTree = "<group>"; };
+		A5A427DE2179AC0500FD93F6 /* UILabel+Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Tools.m"; sourceTree = "<group>"; };
+		A5A427E02179B49B00FD93F6 /* HomePageSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageSegmentView.h; sourceTree = "<group>"; };
+		A5A427E12179B49C00FD93F6 /* HomePageSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageSegmentView.m; sourceTree = "<group>"; };
+		A5A427E32179B4B400FD93F6 /* HomePageSegmentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageSegmentView.xib; sourceTree = "<group>"; };
+		A5A427E52179DA3D00FD93F6 /* HomePageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageModel.h; sourceTree = "<group>"; };
+		A5A427E62179DA3D00FD93F6 /* HomePageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageModel.m; sourceTree = "<group>"; };
+		A5A427E82179E1EE00FD93F6 /* HomePageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageCell.h; sourceTree = "<group>"; };
+		A5A427E92179E1EE00FD93F6 /* HomePageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageCell.m; sourceTree = "<group>"; };
+		A5A427EA2179E1EE00FD93F6 /* HomePageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageCell.xib; sourceTree = "<group>"; };
+		F8C83C6933F3DAC74D1072F2 /* Pods-iYuBaHomePageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iYuBaHomePageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iYuBaHomePageDemo/Pods-iYuBaHomePageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5A427982179821F00FD93F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF91A66BCAD5E26B60378959 /* libPods-iYuBaHomePageDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7925AA5656D802812EF13B8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				915EABC5249F39D9A5CD2CC2 /* libPods-iYuBaHomePageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5A427922179821F00FD93F6 = {
+			isa = PBXGroup;
+			children = (
+				A5A4279D2179821F00FD93F6 /* iYuBaHomePageDemo */,
+				A5A4279C2179821F00FD93F6 /* Products */,
+				E1A9E3CDC2A1E9DD18DC47FD /* Pods */,
+				7925AA5656D802812EF13B8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5A4279C2179821F00FD93F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A4279B2179821F00FD93F6 /* iYuBaHomePageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A4279D2179821F00FD93F6 /* iYuBaHomePageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A5A427B52179888B00FD93F6 /* AppDelegate */,
+				A5A427B7217988E400FD93F6 /* Base */,
+				A5A427B6217988D100FD93F6 /* Tools */,
+				A5A427A12179821F00FD93F6 /* HomePageViewController.h */,
+				A5A427A22179821F00FD93F6 /* HomePageViewController.m */,
+				A5871EA7217D70F3005A8B1E /* DataSource.html */,
+				A5A427E02179B49B00FD93F6 /* HomePageSegmentView.h */,
+				A5A427E12179B49C00FD93F6 /* HomePageSegmentView.m */,
+				A5A427E32179B4B400FD93F6 /* HomePageSegmentView.xib */,
+				A5A427E82179E1EE00FD93F6 /* HomePageCell.h */,
+				A5A427E92179E1EE00FD93F6 /* HomePageCell.m */,
+				A5A427EA2179E1EE00FD93F6 /* HomePageCell.xib */,
+				A5A427E52179DA3D00FD93F6 /* HomePageModel.h */,
+				A5A427E62179DA3D00FD93F6 /* HomePageModel.m */,
+				A5A427B42179836100FD93F6 /* SupportingFiles */,
+				A5A427A72179822200FD93F6 /* Assets.xcassets */,
+			);
+			path = iYuBaHomePageDemo;
+			sourceTree = "<group>";
+		};
+		A5A427B42179836100FD93F6 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A5A427CE217989BA00FD93F6 /* UtilsMacro.h */,
+				A5A427CF217989CF00FD93F6 /* IYuBaPrefixHeader.pch */,
+				A5A427A42179821F00FD93F6 /* Main.storyboard */,
+				A5A427A92179822200FD93F6 /* LaunchScreen.storyboard */,
+				A5A427AC2179822200FD93F6 /* Info.plist */,
+				A5A427AD2179822200FD93F6 /* main.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A5A427B52179888B00FD93F6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A5A4279E2179821F00FD93F6 /* AppDelegate.h */,
+				A5A4279F2179821F00FD93F6 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A5A427B6217988D100FD93F6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A5A427D62179AA2500FD93F6 /* Category */,
+				A5A427B82179893A00FD93F6 /* BannerLoopView */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A5A427B7217988E400FD93F6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A5A427B82179893A00FD93F6 /* BannerLoopView */ = {
+			isa = PBXGroup;
+			children = (
+				A5A427B92179893A00FD93F6 /* IMG_1.JPG */,
+				A5A427BA2179893A00FD93F6 /* IMG_2.JPG */,
+				A5A427BB2179893A00FD93F6 /* IMG_3.JPG */,
+				A5A427BC2179893A00FD93F6 /* IMG_4.JPG */,
+				A5A427BF2179893A00FD93F6 /* YTBannerLoopView.h */,
+				A5A427C02179893A00FD93F6 /* YTBannerLoopView.m */,
+				A5A427C12179893A00FD93F6 /* YTBannerProtocol.h */,
+				A5A427C22179893A00FD93F6 /* YTHideSelfWhenTextNilLabel.h */,
+				A5A427C32179893A00FD93F6 /* YTHideSelfWhenTextNilLabel.m */,
+				A5A427C42179893A00FD93F6 /* YTPageControl.h */,
+				A5A427C52179893A00FD93F6 /* YTPageControl.m */,
+			);
+			path = BannerLoopView;
+			sourceTree = "<group>";
+		};
+		A5A427D62179AA2500FD93F6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A5A427D421798C5800FD93F6 /* UIView+Layout.h */,
+				A5A427D321798C5800FD93F6 /* UIView+Layout.m */,
+				A5A427D72179AA4F00FD93F6 /* UIImage+Tools.h */,
+				A5A427D82179AA4F00FD93F6 /* UIImage+Tools.m */,
+				A5A427DA2179AB6700FD93F6 /* UIButton+Tools.h */,
+				A5A427DB2179AB6700FD93F6 /* UIButton+Tools.m */,
+				A5A427DD2179AC0500FD93F6 /* UILabel+Tools.h */,
+				A5A427DE2179AC0500FD93F6 /* UILabel+Tools.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E1A9E3CDC2A1E9DD18DC47FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8C83C6933F3DAC74D1072F2 /* Pods-iYuBaHomePageDemo.debug.xcconfig */,
+				2BC26EDD41D38F75F21B9EBE /* Pods-iYuBaHomePageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5A4279A2179821F00FD93F6 /* iYuBaHomePageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A427B12179822200FD93F6 /* Build configuration list for PBXNativeTarget "iYuBaHomePageDemo" */;
+			buildPhases = (
+				9D61180A231A091426A51116 /* [CP] Check Pods Manifest.lock */,
+				A5A427972179821F00FD93F6 /* Sources */,
+				A5A427982179821F00FD93F6 /* Frameworks */,
+				A5A427992179821F00FD93F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iYuBaHomePageDemo;
+			productName = iYuBaHomePageDemo;
+			productReference = A5A4279B2179821F00FD93F6 /* iYuBaHomePageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5A427932179821F00FD93F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = WQ;
+				TargetAttributes = {
+					A5A4279A2179821F00FD93F6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A5A427962179821F00FD93F6 /* Build configuration list for PBXProject "iYuBaHomePageDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5A427922179821F00FD93F6;
+			productRefGroup = A5A4279C2179821F00FD93F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5A4279A2179821F00FD93F6 /* iYuBaHomePageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5A427992179821F00FD93F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A427EC2179E1EE00FD93F6 /* HomePageCell.xib in Resources */,
+				A5A427AB2179822200FD93F6 /* LaunchScreen.storyboard in Resources */,
+				A5A427C82179893A00FD93F6 /* IMG_3.JPG in Resources */,
+				A5A427C62179893A00FD93F6 /* IMG_1.JPG in Resources */,
+				A5A427C72179893A00FD93F6 /* IMG_2.JPG in Resources */,
+				A5A427E42179B4B400FD93F6 /* HomePageSegmentView.xib in Resources */,
+				A5A427A82179822200FD93F6 /* Assets.xcassets in Resources */,
+				A5A427A62179821F00FD93F6 /* Main.storyboard in Resources */,
+				A5A427C92179893A00FD93F6 /* IMG_4.JPG in Resources */,
+				A5871EA8217D70F3005A8B1E /* DataSource.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D61180A231A091426A51116 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iYuBaHomePageDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5A427972179821F00FD93F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A427E72179DA3D00FD93F6 /* HomePageModel.m in Sources */,
+				A5A427EB2179E1EE00FD93F6 /* HomePageCell.m in Sources */,
+				A5A427CD2179893A00FD93F6 /* YTPageControl.m in Sources */,
+				A5A427CC2179893A00FD93F6 /* YTHideSelfWhenTextNilLabel.m in Sources */,
+				A5A427A32179821F00FD93F6 /* HomePageViewController.m in Sources */,
+				A5A427DC2179AB6700FD93F6 /* UIButton+Tools.m in Sources */,
+				A5A427E22179B49C00FD93F6 /* HomePageSegmentView.m in Sources */,
+				A5A427CB2179893A00FD93F6 /* YTBannerLoopView.m in Sources */,
+				A5A427DF2179AC0500FD93F6 /* UILabel+Tools.m in Sources */,
+				A5A427D92179AA4F00FD93F6 /* UIImage+Tools.m in Sources */,
+				A5A427D521798C5800FD93F6 /* UIView+Layout.m in Sources */,
+				A5A427AE2179822200FD93F6 /* main.m in Sources */,
+				A5A427A02179821F00FD93F6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5A427A42179821F00FD93F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A427A52179821F00FD93F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5A427A92179822200FD93F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A427AA2179822200FD93F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5A427AF2179822200FD93F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5A427B02179822200FD93F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5A427B22179822200FD93F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C83C6933F3DAC74D1072F2 /* Pods-iYuBaHomePageDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22TE42BWD7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iYuBaHomePageDemo/SupportingFiles/IYuBaPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/iYuBaHomePageDemo/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muyi.iYuBaHomePageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A5A427B32179822200FD93F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BC26EDD41D38F75F21B9EBE /* Pods-iYuBaHomePageDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22TE42BWD7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iYuBaHomePageDemo/SupportingFiles/IYuBaPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/iYuBaHomePageDemo/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muyi.iYuBaHomePageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5A427962179821F00FD93F6 /* Build configuration list for PBXProject "iYuBaHomePageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A427AF2179822200FD93F6 /* Debug */,
+				A5A427B02179822200FD93F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A427B12179822200FD93F6 /* Build configuration list for PBXNativeTarget "iYuBaHomePageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A427B22179822200FD93F6 /* Debug */,
+				A5A427B32179822200FD93F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5A427932179821F00FD93F6 /* Project object */;
+}
